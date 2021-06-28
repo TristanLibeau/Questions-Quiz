@@ -157,6 +157,7 @@ function allDone() {
     //capture and store initials and score
     createSubmit.addEventListener("click", function () {
         var initials = createInput.value;
+        
 
         if (initials === null) {
 
@@ -165,9 +166,12 @@ function allDone() {
         } else {
             var finalScore = {
                 initials: initials,
-                score: timeRemaining
+                score: timeRemaining,
             }
+
             console.log(finalScore);
+            
+            
             var allScores = localStorage.getItem("allScores");
             if (allScores === null) {
                 allScores = [];
