@@ -4,7 +4,7 @@ The deployed Webpage is a Quiz that displays the combine use of HTML, CSS, JavaS
 
 URL of the Web page:
 
-file:///C:/Users/Tristan/Questions-Quiz/index.html
+https://tristanlibeau.github.io/Questions-Quiz/
 
 URL of my Repository:
 
